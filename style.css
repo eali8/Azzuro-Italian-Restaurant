@@ -1,0 +1,1119 @@
+* {
+  margin: 0%;
+}
+
+body {
+   background-color: #F2DECB;
+}
+
+.menu-btn {
+   color: #d3a032;
+   background-color: #A79775;
+   font-size: 12px;
+   font-weight: normal;
+   font-family: 'Cinzel', serif;
+   border: none;
+}
+
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+}
+
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color: #A79775;
+   border: 2px solid black;
+   min-width: 100px;
+   z-index: 1;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   background-color: #A79775;
+}
+
+.btn-menu { 
+  background-color: #A79775;
+  color: #000000;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Cinzel', serif;
+  border: none;
+  margin-top: 8px;
+}
+
+.links,.links-hidden {
+   display: inline-block;
+   color: rgb(0, 0, 0);
+   padding: 16px 16px;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Cinzel', serif;
+   margin-top: 8px;
+}
+
+.links-hidden {
+   display: block;
+}
+.links {
+   display: inline-block;
+}
+.links-hidden:hover,.links:hover {
+   background-color: #696343;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+   background-color: #696343;
+}
+.dropdown-menu:hover .btn-menu {
+  background-color: #696343;
+  height: auto;
+}
+
+.homeHero {
+   margin: 0 auto;
+   width: 90vw;
+   height: 800px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   margin-top: 2em;
+}
+
+.homePic {
+   opacity: 0.75;
+}
+
+.homeLogo {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reservHome {
+   margin: 0 auto;
+   width: 90vw;
+   height: 240px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1em;
+}
+
+h2 {
+   margin-top: -160px;
+   margin-left: 0.5em;
+   font-size: 6em;
+   font-family: 'Cinzel', serif;
+   font-weight: bold;
+}
+
+.resBtn {
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   height: 100px;
+   width: 250px;
+   background-color: #C43E23;
+   border: solid #7E1C08;
+   border-width: 2px 4px;
+   border-radius: 40px;
+   color: rgb(0, 0, 0);
+   font-size: 2.8em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   text-decoration: none;
+   margin-top: 70px;
+}
+
+.menuHome {
+   margin: 0 auto;
+   width: 90vw;
+   height: 700px;
+   background-color: #A79775;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   margin-top: 1em;
+}
+
+.menuTitle {
+   margin: 0 auto;
+   margin-top: -0.1em;
+   font-size: 7em;
+   font-family: 'Cizel', serif;
+}
+
+.listTitle1 {
+   position: absolute;
+   width: 2vw;
+   height: 1.5em;
+   font-family: 'Fauna One', serif;
+   font-weight: 900;
+   font-size: 2.3em;
+   margin: 0 auto;
+   margin-top: 2.8em;
+   margin-left: -28em;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.listTitle2 {
+   position: absolute;
+   width: 2vw;
+   height: 1.5em;
+   font-family: 'Fauna One', serif;
+   font-weight: 900;
+   font-size: 2.3em;
+   margin: 0 auto;
+   margin-top: 2.8em;
+   margin-left: -2.5em;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.listTitle3 {
+   position: absolute;
+   width: 2vw;
+   height: 1.5em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   font-size: 2.3em;
+   margin: 0 auto;
+   margin-top: 2.8em;
+   margin-left: 22.3em;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.lunchimgs {
+   position: absolute;
+   margin-left: -62.5em;
+   width: 31vmin;
+   height: 55em;
+   margin-top: 10em;
+}
+
+.LunchPic1 {
+   object-fit: cover;
+   margin-left: 2em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.LunchPic2 {
+   object-fit: cover;
+   margin-top: 3em;
+   margin-left: 2em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.dinimgs {
+   position: absolute;
+   width: 31vmin;
+   margin-left: -5.5em;
+   height: 55em;
+   margin-top: 10em;
+}
+
+.dinPic1 {
+   object-fit: cover;
+   margin-left: 3.5em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.dinPic2 {
+   object-fit: cover;
+   margin-top: 3em;
+   margin-left: 3.5em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.dessImgs {
+   position: absolute;
+   width: 31vmin;
+   margin-left: 51.5em;
+   height: 55em;
+   margin-top: 10em;
+}
+
+.dessPic1 {
+   object-fit: cover;
+   margin-left: 3.5em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.dessPic2 {
+   object-fit: cover;
+   margin-top: 3em;
+   margin-left: 3.5em;
+   width: 30vmin;
+   height: 30vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.homeContact {
+   margin: 0 auto;
+   width: 90vw;
+   height: 680px;
+   background-color: #A79775;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   margin-top: 1em;
+}
+
+.contactTitle1 {
+   margin: 0 auto;
+   margin-left: 8px;
+   margin-top: -0.2em;
+   font-size: 5.5em;
+   font-family: 'Cinzel', serif;
+   color: #000;
+}
+
+h5 {
+   position: relative;
+   font-size: 4em;
+   font-family: 'Cinzel', serif;
+   margin: 0 auto;
+   margin-left: 3.5em;
+}
+
+.homeTxt {
+   width: 48em;
+   position: relative;
+   font-size: 1.3em;
+   font-family: 'Fauna One', serif;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+.contImg {
+   position: relative;
+   margin: auto;
+   scale: 0.8;
+   margin-left: -75em;
+   margin-top: 4.5em;
+}
+
+.contInfo {
+   position: absolute;
+   font-size: 2.2em;
+   margin-left: 14em;
+   margin-top: 4.5em;
+   font-family: 'Fauna One', serif;
+}
+
+.contTxt {
+   padding-top: 50px;
+}
+
+.reservHero {
+   margin: 0 auto;
+   width: 90vw;
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   object-fit: cover;
+   font-family: 'Cinzel', serif;
+   margin-top: 2em;
+}
+
+.reservPic {
+   position: relative;
+   width: 90vw;
+   opacity: 40%;
+}
+
+.blackOverlay {
+   position: relative;
+   background: #000000;
+   z-index: -1;
+}
+
+.reservationTitle {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto; 
+   font-size: 8em;
+   font-family: 'Cinzel', serif;
+   color: white;
+}
+
+.resContainer {
+   margin: 0 auto;
+   width: 90vw;
+   height: 300px;
+   background-color: #A79775;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 5em;
+}
+
+.privEventContainer {
+   margin: 0 auto;
+   width: 90vw;
+   height: 600px;
+   background-color: #A79775;
+   display: flex;
+   justify-content: center;
+   border-radius: 8px;
+   align-items: center;
+   margin-top: 1em;
+}
+
+.resTitle2 {
+   font-size: 5em;
+   font-family: 'Cinzel', serif;
+   margin-bottom: 0.8em;
+}
+
+.resBtn2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   height: 85px;
+   width: 320px;
+   background-color: #C43E23;
+   border: solid #7E1C08;
+   border-width: 4px 6px;
+   border-radius: 45px;
+   color: rgb(0, 0, 0);
+   font-size: 1.8em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   text-decoration: none;
+   margin-top: 150px;
+}
+
+.resBoxText {
+   position: absolute;
+   font-size: 3em;
+   font-family: 'Fauna One', serif;
+   margin-top: -1em;
+}
+
+.privEvTitle {
+   font-size: 5em;
+   font-family: 'Cinzel', serif;
+   margin-bottom: 4em;
+}
+
+.evBtn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   height: 70px;
+   width: 180px;
+   background-color: #C43E23;
+   border: solid #7E1C08;
+   border-width: 2px 4px;
+   border-radius: 40px;
+   color: rgb(0, 0, 0);
+   font-size: 2.2em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   text-decoration: none;
+   margin-top: -6em;
+}
+
+.eventContent {
+   width: 48em;
+   position: relative;
+   font-size: 1.3em;
+   font-family: 'Fauna One', serif;
+   margin: 0 auto;
+   padding: 15px;
+   margin-left: -0.3em;
+}
+
+.eventCont {   
+   margin-left: 17em;
+}
+
+.evBtn2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   height: 70px;
+   width: 230px;
+   background-color: #C43E23;
+   border: solid #7E1C08;
+   border-width: 2px 4px;
+   border-radius: 40px;
+   color: rgb(0, 0, 0);
+   font-size: 2.2em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   text-decoration: none;
+   margin-top: -6em;
+   margin-left: -23em;
+}
+
+.evBtn3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   height: 70px;
+   width: 210px;
+   background-color: #C43E23;
+   border: solid #7E1C08;
+   border-width: 2px 4px;
+   border-radius: 40px;
+   color: rgb(0, 0, 0);
+   font-size: 2.2em;
+   font-family: 'Fauna One', serif;
+   font-weight: bold;
+   text-decoration: none;
+   margin-top: -6em;
+   margin-left: 23em;
+}
+
+.socialImg {
+   position: absolute;
+   object-fit: cover;
+   margin-left: -51em;
+   margin-top: 15em;
+   width: 35vmin;
+   height: 35vh;
+   box-shadow: 10px 5px 5px #262E12;
+}  
+
+.wedImg {
+   position: absolute;
+   object-fit: cover;
+   margin-top: 15em;
+   width: 35vmin;
+   height: 35vh;
+   box-shadow: 10px 5px 5px #262E12;
+}
+
+.filmImg {
+   position: absolute;
+   object-fit: cover;
+   margin-left: 51em;
+   margin-top: 15em;
+   width: 35vmin;
+   height: 35vh;
+   box-shadow: 10px 5px 5px #262E12;
+}  
+
+.hostContainer {
+   margin: 0 auto;
+   width: 90vw;
+   height: 600px;
+   background-color: #A79775;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1em;
+}
+
+.hostTitle {
+   font-size: 6em;
+   font-family: 'Cinzel', serif;
+   margin-bottom: 3.3em;
+   margin-left: -0.4em;
+}
+
+.listLeft {
+   position: absolute;
+   font-size: 3em;
+   font-family: 'Fauna One', serif;
+   font-weight: 750;
+   margin-left: -13em;
+   margin-top: 1em;
+}
+
+.listRight {
+   position: absolute;
+   font-size: 3em;
+   font-family: 'Fauna One', serif;
+   font-weight: 750;
+   line-height: 1.3em;
+   margin-left: 17em;
+   margin-top: 2.5em;
+}
+
+.itemLeft {
+   padding-top: 0.7em;
+   list-style: 'seogoe UI' inside url('imgs/pizzaIcon.svg');
+}
+
+.itemRight {
+   padding-top: 0.2em;
+   list-style: 'seogoe UI' inside url('imgs/pizzaIcon.svg');
+}
+
+.aboutHero {
+   margin: 0 auto;
+   width: 90vw;
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   object-fit: cover;
+}
+
+.aboutPic {
+   position: relative;
+   width: 90vw;
+   height: 45em;
+   opacity: 60%;
+
+}
+
+.aboutTitle {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto; 
+   font-size: 6em;
+   font-family: 'Cinzel', serif;
+   color: white;
+   margin-top: -0.5em;
+}
+
+.aboutHead {
+   font-family: 'Cinzel', serif;
+   position: absolute;
+   font-size: 3em;
+   margin: 0 auto;
+   margin-left: 11.5em;
+   color: #a79775;
+}
+
+.beginningImg {
+   position: absolute;
+   width: 40em;
+   height: 28em;
+   margin-top: 6em;
+   margin-left: 4.2em;
+}
+
+.beginningCont {
+   width: 43em;
+   height: 28em;
+   margin-left: 45em;
+   margin-top: 6em;
+}
+
+.beginningTitle {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   margin-left: -1px;
+   margin-top: 3em;
+   padding-bottom: 15px;
+}
+
+.begContent {
+   font-family: 'Fauna One', serif;
+   font-size: 1.3em;
+   line-height: 30px;
+}
+
+.experImg {
+   position: absolute;
+   width: 40em;
+   height: 28em;
+   margin-top: 7.5em;
+   margin-left: 48em;
+}
+
+.experCont {
+   width: 45em;
+   height: 28em;
+   margin-left: 0em;
+   margin-top: -5em;
+}
+
+.experTitle {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   margin-left: 60px;
+   margin-top: 3em;
+   padding-bottom: 15px;
+}
+
+.experContent {
+   font-family: 'Fauna One', serif;
+   font-size: 1.3em;
+   line-height: 30px;
+   margin-left: 3em;
+}
+
+.azzuroImg {
+   position: absolute;
+   width: 40em;
+   height: 28em;
+   margin-top: 14em;
+   margin-left: 4.2em;
+}
+
+.azzuroCont {
+   width: 43em;
+   height: 28em;
+   margin-left: 45em;
+   margin-top: 6em;
+   padding-bottom: 3em;
+}
+
+.azzuroTitle {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   margin-left: -1px;
+   margin-top: 3em;
+   padding-bottom: 15px;
+}
+
+.azzuroContent {
+   font-family: 'Fauna One', serif;
+   font-size: 1.3em;
+   line-height: 30px;
+}
+
+.contactHero {
+   margin: 0 auto;
+   width: 90vw;
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   object-fit: cover;
+}
+
+.contactPic {
+   position: relative;
+   width: 90vw;
+   height: 45em;
+   opacity: 60%;
+
+}
+
+.contactTitle {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto; 
+   font-size: 6em;
+   font-family: 'Cinzel', serif;
+   color: white;
+   margin-top: -0.5em;
+}
+
+.contUsTitle {
+   position: absolute;
+   font-family: 'Cinzel', serif;
+   font-size: 4em;
+   margin: auto; 
+   margin-left: 8.5em;
+   margin-top: 1em;
+   color: #a79775;
+   text-decoration: underline #a79775;
+}
+
+.mapImg {
+   scale: 0.5;
+   margin-top: -4em;
+   margin-left: -25em;
+   object-fit: cover;
+}
+
+.markicon {
+position: absolute;
+scale: 0.05;
+margin-top: -78em;
+margin-left: 14em;
+}
+
+.phoneicon {
+position: absolute;
+scale: 0.05;
+margin-top: -68em;
+margin-left: 14em;
+}
+
+.mailicon {
+position: absolute;
+scale: 0.05;
+margin-top: -58em;
+margin-left: 14em;
+}
+
+.contactinfo {
+   position: relative;
+   width: 35em;
+   height: 25em;
+   margin: 0 auto;
+   margin-left: 57em;
+   margin-top: -41em;
+   font-family: 'Cinzel', serif;
+}
+
+.location {
+   font-size: 1.7em;
+}
+
+.number {
+   padding-top: 2.7em;
+   font-size: 2.3em;
+}
+
+.email {
+   padding-top: 4em;
+   font-size: 1.8em;
+}
+
+.menuTitles {
+   width: 80em;
+   height: 4em;
+   margin: auto;
+   margin-top: 3em;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.lunchlink {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dinnerlink {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dessertlink {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.drinkslink {
+   text-decoration: underline, #A79775;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.drinkmenu {
+   background-color: #A79775;
+   width: 90em;
+   height: 325em;
+   margin: auto;
+   margin-top: 2em;
+}
+
+.drinkHeaders {
+   font-family: 'Fauna One', serif;
+   font-size: 2.3em;
+   color: #000;
+   padding-top: 1em;
+   padding-left: 1.7em;
+}
+
+.cocktailName {
+   font-family: 'Fauna One', serif;
+   list-style: none;
+   line-height: 3em;
+   font-size: 1.3em;
+   padding-left: 3em;
+}
+
+em {
+   font-weight: 600;
+   font-size: 1.2em;
+}
+
+.drinkHeaders {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   color: #000;
+   padding-top: 1.5em;
+   padding-left: 1.5em;
+}
+
+.wineType {
+   font-family: 'Fauna One', serif;
+   font-size: 2.4em;
+   font-weight: 1000;
+   color: #000;
+   padding-top: 0.9em;
+   padding-left: 1.6em;
+   text-decoration: underline;
+}
+
+.listName {
+   font-family: 'Fauna One', serif;
+   color: #000;
+   font-size: 2.1em;
+   font-weight: 700;
+   padding-top: 1.5em;
+   padding-left: 1.8em;
+}
+
+.wineName {
+   font-family: 'Fauna One', serif;
+   list-style: none;
+   line-height: 3em;
+   font-size: 1.2em;
+   padding-left: 3.4em;
+}
+
+.lunchlink2 {
+   text-decoration: underline, #A79775;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dinnerlink2 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dessertlink2 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.drinkslink2 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.lunchMenu {
+   background-color: #A79775;
+   width: 90em;
+   height: 77em;
+   margin: auto;
+   margin-top: 2em;
+}
+
+.lunchHeaders {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   color: #000;
+   padding-top: 1.5em;
+   padding-left: 1.5em;
+}
+
+.lunchName {
+   font-family: 'Fauna One', serif;
+   list-style: none;
+   line-height: 3em;
+   font-size: 1.3em;
+   padding-left: 2.8em;
+}
+
+li {
+   font-size: 1em;
+}
+
+.lunchlink3 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dinnerlink3 {
+   text-decoration: underline, #A79775;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dessertlink3 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.drinkslink3 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dinnerMenu {
+   background-color: #A79775;
+   width: 90em;
+   height: 155em;
+   margin: auto;
+   margin-top: 2em;
+}
+
+.dinnerHeaders {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   color: #000;
+   padding-top: 1.5em;
+   padding-left: 1.5em;
+}
+
+.dinnerName {
+   font-family: 'Fauna One', serif;
+   list-style: none;
+   line-height: 3em;
+   font-size: 1.3em;
+   padding-left: 2.8em;
+}
+
+footer {
+   width: 99vw;
+   height: 4em;
+   margin-top: 4em;
+   background-color: #A79775;
+   font-family: 'Cinzel', serif;;
+   font-size: 2em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.footerIcons {
+   display: flex;
+   flex-direction: row;
+   scale: 0.5;
+}
+
+.faceIcon {
+   margin-right: 2em;
+   scale: 1.7;
+}
+
+.twitIcon {
+   margin-right: 1.5em;
+   scale: 1.4;
+}
+
+.instaIcon {
+   scale: 1;
+   margin-right: 0.5em;
+}
+
+.lunchlink4 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dinnerlink4 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.dessertlink4 {
+   text-decoration: underline, #A79775;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.drinkslink4 {
+   text-decoration: none;
+   font-family: 'Cinzel', serif;
+   font-weight: bolder;
+   font-size: 2.5em;
+   color: #A79775;
+}
+
+.desMenu {
+   background-color: #A79775;
+   width: 90em;
+   height: 40em;
+   margin: auto;
+   margin-top: 2em;
+}
+
+.desHeader {
+   font-family: 'Cinzel', serif;
+   font-size: 2.5em;
+   color: #000;
+   padding-top: 1.5em;
+   padding-left: 1.5em;
+}
+
+.desName {
+   font-family: 'Fauna One', serif;
+   list-style: none;
+   line-height: 3em;
+   font-size: 1.3em;
+   padding-left: 2.8em;
+}
+
+.footContact {
+   text-decoration: none;
+   color: #000;
+}
